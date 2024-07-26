@@ -1,0 +1,108 @@
+import {StyleSheet, Platform} from 'react-native';
+import {Colors} from '../theme/colors';
+
+const styles = StyleSheet.create({
+  carouselArea: {
+    marginTop: 20,
+    flex: 1,
+    alignItems: 'center',
+  },
+  carouselContainer: {
+    position: 'relative',
+    width: 305,
+    height: 362,
+    borderWidth: 1.5,
+    backgroundColor: Colors.White,
+    borderColor: Colors.TabBorder,
+    borderRadius: 20,
+  },
+  imageContainer: {
+    position: 'relative',
+    overflow: 'hidden',
+    padding: 5,
+  },
+  image: {
+    width: 'auto',
+    height: 247,
+    borderRadius: 16,
+    borderBottomLeftRadius: 100,
+  },
+  brandCircle: {
+    position: 'absolute',
+    top: 202,
+    left: 10,
+    width: 55,
+    height: 55,
+    borderRadius: 50,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  brandIcon: {
+    width: '100%',
+    height: '100%',
+    borderRadius: 50,
+  },
+  day: {
+    position: 'absolute',
+    top: 214.82,
+    left: 197.91,
+    width: 97,
+    height: 32,
+    borderRadius: 20,
+    backgroundColor: Colors.TabActive,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  dayText: {
+    color: Colors.White,
+    fontFamily: 'Helvetica',
+    fontWeight: '400',
+    fontSize: 12.87,
+    lineHeight: 14.8,
+    letterSpacing: -0.54,
+  },
+  textContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    margin: 10,
+  },
+  text: {
+    fontFamily: 'Helvetica',
+    fontWeight: '700',
+    fontSize: 14,
+    lineHeight: 20,
+    letterSpacing: -0.22,
+    color: Colors.TabActive,
+    textAlign: 'center',
+  },
+  textSpan: {
+    color: Colors.White,
+    fontWeight: '400',
+    fontSize: 14,
+    lineHeight: 16.1,
+    letterSpacing: -0.44,
+  },
+  daha: {
+    fontFamily: 'Helvetica',
+    fontWeight: '700',
+    fontSize: 14,
+    lineHeight: 16,
+    textAlign: 'center',
+    color: Colors.Sprite,
+  },
+  rotateContainer: {
+    position: 'absolute',
+    backgroundColor: Colors.Sprite,
+    borderTopLeftRadius: 150,
+    borderBottomLeftRadius: Platform.OS === "android" ? 50 : 20,
+    borderTopRightRadius: Platform.OS === "android" ? 200 : 20,
+    width: Platform.OS === 'ios' ? 305 : 300,
+    height: 372,
+    borderRadius: 20,
+    top: 5,
+    zIndex: -10,
+    transform: [{skewY: Platform.OS === 'ios' ? '3deg' : '1deg'}],
+  },
+});
+
+export default styles;

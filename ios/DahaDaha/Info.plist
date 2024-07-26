@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>DahaDaha</string>
+	<string>Daha Daha</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -26,7 +26,6 @@
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-	  <!-- Do not change NSAllowsArbitraryLoads to true, or you will risk app rejection! -->
 		<key>NSAllowsArbitraryLoads</key>
 		<false/>
 		<key>NSAllowsLocalNetworking</key>
@@ -48,5 +47,43 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>helvetica-compressed-5871d14b6903a.otf</string>
+		<string>helvetica-rounded-bold-5871d05ead8de.otf</string>
+		<string>Helvetica-Bold.ttf</string>
+		<string>Helvetica-BoldOblique.ttf</string>
+		<string>Helvetica-Oblique.ttf</string>
+		<string>Helvetica.ttf</string>
+		<string>helvetica-light-587ebe5a59211.ttf</string>
+		<string>Helvetica Black Condensed Oblique.otf</string>
+		<string>Helvetica Black Condensed.otf</string>
+		<string>Helvetica Black Oblique.otf</string>
+		<string>Helvetica Bold Condensed.otf</string>
+		<string>Helvetica Bold Narrow Oblique.otf</string>
+		<string>Helvetica Condensed Bold Oblique.otf</string>
+		<string>Helvetica Condensed Oblique.otf</string>
+		<string>Helvetica Extra Compressed Regular.otf</string>
+		<string>Helvetica Inserat Roman.otf</string>
+		<string>Helvetica Light Condensed.otf</string>
+		<string>Helvetica Rounded Black.otf</string>
+		<string>Helvetica Rounded Bold Oblique.otf</string>
+		<string>Helvetica Rounded Bold.otf</string>
+		<string>Helvetica Rounded Condensed Bold.otf</string>
+		<string>Helvetica Rounded LT Std Bold Condensed Oblique.otf</string>
+		<string>Helvetica Ultra Compressed.otf</string>
+		<string>helvetica black.otf</string>
+		<string>helvetica-compressed.otf</string>
+		<string>helvetica-rounded-bold.otf</string>
+		<string>Helvetica Condensed Regular.ttf</string>
+		<string>Helvetica Roman.ttf</string>
+		<string>Helvetica-Bold Oblique.ttf</string>
+		<string>Helvetica-LightOblique.ttf</string>
+		<string>Helvetica-Narrow Bold.ttf</string>
+		<string>Helvetica-Narrow Roman.ttf</string>
+		<string>Helvetica-Narrow-Oblique.ttf</string>
+		<string>helvetica-light.ttf</string>
+		<string>helvetica_condensed.ttf</string>
+	</array>
 </dict>
 </plist>

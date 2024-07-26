@@ -1,0 +1,5 @@
+const HOME_SCREEN: string = 'KEŞFET';
+const DAHA_DAHA_SCREEN: string = 'DAHA DAHA';
+const WALLET_SCREEN: string = 'DAHA CÜZDAN';
+
+export {HOME_SCREEN, DAHA_DAHA_SCREEN, WALLET_SCREEN};
