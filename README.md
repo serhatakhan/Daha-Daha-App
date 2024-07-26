@@ -27,13 +27,6 @@ veya
 `yarn install`
 komutlarını kullanarak paketleri ve bağımlılıkları yeniden yükleyin.
 
-3. Patch-Package Kullanımı
+3. Projeyi ios da başlatmadan önce `npx pod-install` ile ios tarafındaki bağımlıklıkları yükleyin. Daha sonra projeyi ios da başlatmak için `npm run ios`, android de çalıştırmak için ise `npm run android` komutlarını kullanın.
 
-patch-package kullanarak, snap-carousel paketi için yapılan özel değişikliklerin projeye uygulanmasını sağlamak için, patch-package komutunu kullanın. 
-Bu, özel değişikliklerin projenin bağımlılıklarına uygulanmasını sağlar. Komutu şu şekilde çalıştırmalısınız:
 
-`npm run postinstall`
-veya
-`yarn postinstall`
-
-Bu, postinstall script'inin çalışmasını ve gerekli patch'lerin uygulanmasını sağlayacaktır.
