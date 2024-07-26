@@ -2,7 +2,7 @@
 
 Daha Daha Uygulaması, promosyonların içeriğini modern, kullanıcı dostu bir arayüzle görüntülemek için tasarlanmış bir React Native uygulamasıdır. Promosyon ögelerinden oluşan bir slidera, markaların bir listesine ve bireysel promosyonların ayrıntılı görünümlerine sahiptir. 
 
-## Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 - React Native
 - Redux Toolkit
@@ -14,7 +14,7 @@ Daha Daha Uygulaması, promosyonların içeriğini modern, kullanıcı dostu bir
 - HTML Entities
 - Reselect
 
-## Kurulum
+## Kurulum
 
 1. Önce projeyi klonlayın. Bunun için:
 
